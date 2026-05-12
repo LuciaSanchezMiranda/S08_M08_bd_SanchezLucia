@@ -4,8 +4,6 @@ GO
 USE LuciPetNest;
 GO
 
-DROP TABLE SolicitudCita;
-
 CREATE TABLE SolicitudCita (
     IdSolicitud INT IDENTITY(1,1) PRIMARY KEY,
 
@@ -41,6 +39,6 @@ VALUES
 ('Jorge Castillo', 'jorge.castillo@yahoo.com', '+51 944556677', 'Firulais', 'Emergencia', 'Mi mascota sufrió un accidente y necesita atención urgente.'),
 ('Valeria Soto', 'valeria.soto@gmail.com', '+51 933221100', 'Nina', 'Consulta general', 'Mi mascota está decaída y quiero una revisión general.');
 
-SELECT * FROM solicitud_cita;
+SELECT * FROM SolicitudCita;
 
 
